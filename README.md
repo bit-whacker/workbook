@@ -5,11 +5,11 @@
 --------------------------
 
 # Table Of Contents
-- (1 Introduction)[#1-introduction]
+- [1. Introduction](#1-introduction)
 
-# 1 Introduction
+# 1. Introduction
 
-Service Curation Layer (SCL) provides recommendations based on user's physiological and contextual information. Physiological recommendation is based on production rules from the wellness domain. Whereas, contextual matrix, based on data collected from different users, provides the basis for providing cross-context contextual recommendations. It is important to note that the contextual considerations supplement the phyisological factors of the recommendations. 
+**Service Curation Layer** `(SCL)` provides recommendations based on user's physiological and contextual information. Physiological recommendation is based on production rules from the wellness domain. Whereas, contextual matrix, based on data collected from different users, provides the basis for providing cross-context contextual recommendations. It is important to note that the contextual considerations supplement the phyisological factors of the recommendations. 
 
 # 2. Setup
 ## 2.1 Prerequisites
