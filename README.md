@@ -6,6 +6,8 @@
 
 # Table Of Contents
 - [1. Introduction](#1-introduction)
+- [2. Setup](#2-setup)
+  - [2.1 Prerequisites](#2.1-prerequisites)
 
 # 1. Introduction
 
