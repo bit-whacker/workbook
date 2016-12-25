@@ -11,12 +11,12 @@
 Service Curation Layer (SCL) provides recommendations based on user's physiological and contextual information. Physiological recommendation is based on production rules from the wellness domain. Whereas, contextual matrix, based on data collected from different users, provides the basis for providing cross-context contextual recommendations. It is important to note that the contextual considerations supplement the phyisological factors of the recommendations. 
 
 # 2. Setup
-## 2.1 Pre-requisties
-#### Download & install the following prerequisits
+## 2.1 Prerequisites
+#### Download & install the following prerequisites
 - Download & Install [Maven]([https://www.apache.org/dyn/closer.cgi)
 - Downlaod & Install [Tomcat server](http://tomcat.apache.org/)
 
-## 2.2 Clone or Download
+## 2.2 Clone or Download zip
 #### clone scl-miningmind-2.0 OR download its zip file
 * `git clone  https://eccentric-bit@bitbucket.org/bit-whacker/scl-miningmind-2.5.git`
 * [Download zip](https://eccentric-bit@bitbucket.org/bit-whacker/scl-miningmind-2.5.git)
@@ -31,15 +31,20 @@ $ `mvn clean package`
 ##### Import project in Eclipse:
 * File > Import 
 * Expand `Maven` and select `Existing Maven Projects` 
-* Select the root directory of the project and click `Finish`
+* Select root directory of the project and click `Finish`
 
-Once the project is loaded now Right Click on the project, Run as > Run on Server
+Once the project is loaded now Right Click on the project, 
+* Run as > Run on Server
+Note: you have to attach runtime with the project before running on server
 
 ### 2.4.2 Deploy inside tomcate
 #### To deploy insdie tomcate do the following steps
-Copy target/scl-miningmind.war to Tomcate webapps directory
-Run Tomcate
-Visit localhost:8080/scl-miningmind-2.5/rest/...... in browser
+* Copy `target/scl-miningmind.war` to Tomcate's webapps directory e.g. 
+* `C:\apache\apache-tomcat-7.0.70\webapps` for example
+* Run tomcat e.g. move to `C:\apache\apache-tomcat-7.0.70\bin` and run one of the following depending on the `OS` platform 
+* window: `startup.bat`, linux: `startup.sh`
+Navigate to browser and the service curation framework will be listening on `port: 8080`
+e.g. `localhost:8080/scl-miningmind-2.5/rest/`
 
 
 # 3. Components of SCL
