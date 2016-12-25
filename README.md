@@ -16,6 +16,7 @@
 - [3. Components of SCL](#3-components-of-scl)
   - [3.1 Recommendation Builder](#3.1-recommendation-builder)
   - [3.2 Recommendation Interpreter](#3.2-recommendation-interpreter)
+  - [3.3 Orchestrator](#3.3-orchestrator)
 - [4. Authors](#4-authors)
 - [5. License](#5-license)
   
@@ -65,6 +66,8 @@ e.g. `localhost:8080/scl-miningmind-2.5/rest/`
 ## 3.1 Recommendation Builder
 \description
 ## 3.2 Recommendation Interpreter
+\description
+## 3.3 Orchestrator
 \description
 
 # 4. Authors
