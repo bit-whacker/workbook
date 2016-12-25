@@ -38,11 +38,12 @@ Once the project is loaded now Right Click on the project,
 Note: you have to attach runtime with the project before running on server
 
 ### 2.4.2 Deploy inside tomcate
-#### To deploy insdie tomcate do the following steps
+#### To deploy inside tomcate do the following steps
 * Copy `target/scl-miningmind.war` to Tomcate's webapps directory e.g. 
 * `C:\apache\apache-tomcat-7.0.70\webapps` for example
-* Run tomcat e.g. move to `C:\apache\apache-tomcat-7.0.70\bin` and run one of the following depending on the `OS` platform 
+* Run tomcat e.g. move to `C:\apache\apache-tomcat-7.0.70\bin` and run one of the following depending on the `OS`
 * window: `startup.bat`, linux: `startup.sh`
+
 Navigate to browser and the service curation framework will be listening on `port: 8080`
 e.g. `localhost:8080/scl-miningmind-2.5/rest/`
 
