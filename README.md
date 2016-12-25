@@ -2,11 +2,12 @@
 [![Version](https://img.shields.io/badge/mining%20minds-version%202.5-green.svg)](http://www.miningminds.re.kr/english/)
 [![License](https://img.shields.io/badge/Apache%20License%20-Version%202.0-yellowgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-
 --------------------------
 
+# Table Of Contents
+* (1 Introduction)[1-introduction]
 
-# 1. Service Curation Layer
+# 1 Introduction
 
 Service Curation Layer (SCL) provides recommendations based on user's physiological and contextual information. Physiological recommendation is based on production rules from the wellness domain. Whereas, contextual matrix, based on data collected from different users, provides the basis for providing cross-context contextual recommendations. It is important to note that the contextual considerations supplement the phyisological factors of the recommendations. 
 
